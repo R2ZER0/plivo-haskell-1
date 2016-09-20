@@ -58,10 +58,11 @@ library
   -- Modules exported by the library.
   exposed-modules:   Plivo.RestApi
                      Plivo.XML
+                     Plivo.Types
+                     Plivo.Validator
 
   -- Modules included in this library but not exported.
-  other-modules:     Plivo.Types
-                     Plivo.Validator
+  -- other-modules:
   
   -- Other library packages from which modules are imported.
   build-depends:       base          >= 4.5.0.0,
