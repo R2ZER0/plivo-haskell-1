@@ -60,7 +60,8 @@ library
                      Plivo.XML
 
   -- Modules included in this library but not exported.
-  -- other-modules:       
+  other-modules:     Plivo.Types
+                     Plivo.Validator
   
   -- Other library packages from which modules are imported.
   build-depends:       base          >= 4.5.0.0,
